@@ -1,0 +1,18 @@
+body{
+  background-color: #2980b9;
+  display: flex;
+  justify-content: center;
+  min-height:100vh;
+}
+
+#preview{
+  background-color: white;
+  min-height:200px;
+  width:800px;
+  margin-top: 50px;
+}
+
+#editor{
+  min-height:200px;
+  width:800px;
+}
