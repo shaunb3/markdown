@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import marked from 'marked';
- import ReactFCCtest from 'react-fcctest';
+ 
 //import Editor from './components/Editor';
 //import Preview from './components/Preview';
 
@@ -58,7 +58,7 @@ handleChange=(event)=>{
         <div id="preview" dangerouslySetInnerHTML={{__html:marked(markdown)}}>
         
         </div>
-         <ReactFCCtest />
+         
     </div>
   );
   }
